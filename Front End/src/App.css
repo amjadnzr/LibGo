@@ -1,0 +1,30 @@
+.app1{
+    width: 20%;
+    height:100%;
+    position: fixed;
+    background-color:black;
+    opacity: 0.75;
+    background-image: url('./img/img5.jpg')
+}
+
+.app{
+    height: 100%;
+    width:100%;
+}
+.app2{
+   
+    float:right; 
+    width:80%;
+    background-color: #e5e5e5;
+    min-height:750px;
+    height:100%;
+
+}
+
+.not-app{
+    display: inline-block;
+    margin-left: 25%;
+    margin-right: 25%;
+    width:50%;
+    margin-top:10%;
+}

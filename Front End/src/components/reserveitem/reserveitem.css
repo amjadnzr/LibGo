@@ -1,0 +1,16 @@
+.reserve-item-container{
+    width: 90%;
+    margin:5%;
+    background-color: white;
+}
+
+.reserve-item-show-ok-button{
+    position: relative;
+    float: right;
+    margin-right:50px;
+    margin-bottom:20px;
+    border:1px solid green;
+    width:100px;
+    background-color:green;
+    color:white;
+}

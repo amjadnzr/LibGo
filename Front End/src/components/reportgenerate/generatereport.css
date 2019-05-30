@@ -1,0 +1,47 @@
+.report-container{
+    background-color: white;
+    width: 90%;
+    min-height:500px;
+    margin:5%;
+    padding-top:100px;
+}
+
+.report-table-container{
+    background-color: white;
+    width: 90%;
+    min-height:300px;
+    margin:4%;
+    /* border:2px solid blue; */
+
+}
+
+.report-table-header-container{
+    min-width: 100%;
+    /* border:1px solid red; */
+    /* justify-content: center; */
+}
+
+.report-table-header-row{
+    align-content: center;
+}
+
+.report-table-header{
+    width:10%;
+    margin:0px;
+    text-align: center;
+    background-color: #1ab1be;
+    color: white;
+    border:1px solid white 
+}
+
+.report-table{
+  width: 100%;
+  height:100%;
+  align-content: center;
+}
+
+.report-table-data{
+    text-align: center;
+    background-color: rgb(26,177,190,0.2)
+    
+}

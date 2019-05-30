@@ -1,0 +1,132 @@
+ /* Inner Bar Styling */
+.inner-bar-button{
+    display: inline-block;
+  width:250px;
+  background-color:#e5e5e5;
+  border:2px solid #1ab1be;
+  font-family:Arial, Helvetica, sans-serif;
+  color: #1ab1be;
+}
+
+.innerbar{
+ margin-top:20px;
+ text-align:center;
+}
+
+/* Add Book Form Styling */
+.add-form{
+ height:80%;  /*80/100 of .add-form-container */
+background-color: white;
+display: inline-block;
+
+}
+
+.add-form-container{
+    display: inline-block;
+    width: 80%;
+    margin:10%;
+    height: 700px;  /* change later */
+    margin-top:30px;
+
+}
+
+.form-holder{
+    display: inline-block;
+    /* border: 3px solid blue; */
+    width: 80%;
+    margin-left:40px;
+    margin-right:50px; 
+    margin-top:30px;
+    
+
+}
+
+.input-container{
+    display:-webkit-inline-box;
+    width:100%;
+    height:60px;
+    /* border: 2px red solid; */
+    margin-bottom: 2px;
+    text-align: center;
+    align-content: center;
+}
+
+.input-box{
+    display: inline-block;
+    width:200px;
+    border:0px;
+    border-bottom: 1px solid black;
+    font-size:14px;
+}
+
+.input-box:focus,.input-box:hover{
+    border-bottom: 2px solid #1ab1be;
+}
+
+#small-input-box{
+    width:100px;
+    margin-left:20px; 
+
+    
+}
+
+input:focus {
+    outline:none;
+}
+
+.form-input-label{
+  font-size: 10px;
+  margin-right:10px;
+  margin-left:0px;
+} 
+
+.form-submit-button{
+    background-color:#31cc19;
+    width:100px;
+    height:30px;
+    /* margin-right:220px; */
+    /* margin-top:10px;   */
+    /* float:right; */
+    border: 0px; 
+    color:white;
+    font-size: 12px;
+}
+
+.form-submit-button-delete{
+    background-color:red;
+    width:100px;
+    height:30px;
+    /* margin-right:220px; */
+    /* margin-top:10px;   */
+    /* float:right; */
+    border: 0px; 
+    color:white;
+    font-size: 12px;
+}
+.form-submit-button-cancel{
+    background-color:red;
+    width:100px;
+    height:30px;
+    /* margin-right:220px; */
+    /* margin-top:10px;   */
+    /* float:right; */
+    border: 0px; 
+    color:white;
+    font-size: 12px;
+    margin-right:5px;
+}
+
+.form-input-error{
+    color: red;
+    font-size:10px;
+    margin-top:20px;
+    margin-left:10px;
+}
+
+.form-input-error-black{
+    color:black;
+    font-size:10px;
+    margin-top:20px;
+    margin-left:15px;
+}
+

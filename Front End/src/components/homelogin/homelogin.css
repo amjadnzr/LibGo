@@ -1,0 +1,94 @@
+.ulclass{
+    display: block;
+    margin:0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.btnclass{
+    width: 100%;
+    height:50px; 
+    background-color: black;
+    opacity:0.75;
+    color: white;
+    border: 1px solid black ;
+    
+}
+/* 
+.btnclass:focus{
+    background-color:#20d0df;
+}
+
+.btnclass:active{
+    background-color:#20d0df;
+} */
+
+.btnclass:hover{
+    background-color:black;
+    opacity:0.9;
+    
+}
+
+#click{
+    background-color:blue
+}
+
+.heading-1{
+    color: white;
+    margin-bottom:20%;
+    text-align: center;
+    padding-top:50px;
+
+    animation-name: spin;
+    animation-duration: 10000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+
+@keyframes spin {
+    from {
+        transform:rotateY(0deg);
+    }
+    to {
+        transform:rotateY(360deg);
+    }
+}
+
+
+
+
+.button{
+    margin-left:10px;
+    border-radius: 20%;
+    width: 100px;
+    height: 30px;
+    margin-top:20px;
+    color: hsl(0, 0%, 100%);
+    font: bold;
+    font-size: 20px
+
+}
+
+#button-1{
+    background-color: rgb(37, 179, 60);
+    border: 1px solid green;
+    text-decoration: none;
+}
+
+.form{
+    display: inline-block;
+    width: 200px;
+    margin-top:3px;
+
+
+}
+
+.input-field{
+    margin-top: 2px;
+     margin-bottom:20px;
+    border-radius:50px;
+    border: rgb(0, 162, 255) 2px solid;
+    width:230px;
+    height: 30px;
+    text-indent: 10px;
+}
